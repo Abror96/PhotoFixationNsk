@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photoFixLayout"
+    android:background="#F5F5F6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.PhotoFixActivity">
+
+        <LinearLayout
+            android:id="@+id/carInfoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/chooseCar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:padding="16dp"
+            android:layout_marginBottom="15dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/carName"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:text="Автомобиль"/>
+
+            <TextView
+                android:id="@+id/carNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:text="Номер машины"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/addPhoto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"
+            android:text="Добавить фото спереди"/>
+
+        <TextView
+            android:id="@+id/addPhoto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"
+            android:text="Добавить фото сзади"/>
+
+        <TextView
+            android:id="@+id/addPhoto3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"
+            android:text="Добавить фото слева"/>
+
+        <TextView
+            android:id="@+id/addPhoto4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"
+            android:text="Добавить фото справа"/>
+
+        <TextView
+            android:id="@+id/addPhoto5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"
+            android:text="Добавить произвольное фото"/>
+
+        <TextView
+            android:id="@+id/addPhoto6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"
+            android:text="Добавить произвольное фото"/>
+
+        <TextView
+            android:id="@+id/addPhoto7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"
+            android:text="Добавить произвольное фото"/>
+
+        <TextView
+            android:id="@+id/addPhoto8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"
+            android:text="Добавить произвольное фото"/>
+
+        <TextView
+            android:id="@+id/addComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:textSize="17sp"
+            android:text="Добавить комментарий"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#154E85"
+            android:textSize="16sp"
+            android:text="Отправить"
+            android:textColor="#fff"
+            android:padding="16dp"/>
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>
